@@ -1,0 +1,13 @@
+.nav_container{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #0a0a0a;
+    .nav_links{
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+}
