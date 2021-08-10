@@ -1,11 +1,11 @@
 import React from 'react';
-import background from '../assets/img/banner.png';
+import InfoSkills from './InfoSkills';
 
 const Personal = () => (
 
-<div className='personal_container'>
-    PERSONAL
-</div>
+    <div className='personal_container'>
+        <InfoSkills />
+    </div>
 
 )
 

@@ -3,9 +3,9 @@ import React from 'react'
 const Profile = () => (
     <div className='profile_container'>
         <h1 className='profile_title'>Matías Rojas Rojas</h1>
-        <h2>Estudiante de Ingeniería Civil en Computación</h2>
-        <p>Estudiante de cuarto año de Ingeniería civil en Computación, con amplio
-            conocimiento en lógica de programación además de ciertas tecnologías, 
+        <h2>Desarrollador Front-end</h2>
+        <p className='profile_body'>Estudiante de cuarto año de Ingeniería civil en Computación, con amplio
+            conocimiento en lógica de programación además de ciertas tecnologías,
             como <span>HTML, CSS y JS</span> además de un manejo sólido
             en la librería <span>React JS</span> y sus elementos.
         </p>
