@@ -2,10 +2,71 @@
     text-align: center;
     margin: 100px;
 
-
-
     .projects_body{
         font-size: 20px;
         font-weight: lighter;
     }
+}
+
+/* Project card */
+.project-card_container{
+
+    .project-card_img{
+        width: 100%;
+        height: 150px;
+        background: red;
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+}
+
+.projects_card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+
+
+
+// https://codepen.io/dickyal6/pen/rNeRepd thanks!!
+$bright-color: #fff;
+@mixin bottom {
+ position: absolute;
+ right: 0;
+ left: 0;
+}
+
+.project-card_container {
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ width: 350px;
+ height: 370px;
+ position: relative;
+ box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
+margin: 10px;
+ .project-card_profile {
+  background-color: #eef4f8;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  @include bottom();
+  bottom: 0;
+
+  h2 {
+   color: #334454;
+   font-size: 1.2rem;
+  }
+  p {
+   color: #a1b2bc;
+   font-size: 0.8rem;
+  }
+
+ }
 }

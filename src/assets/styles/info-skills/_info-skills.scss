@@ -17,4 +17,17 @@
     .info-skills_info{
         padding: 15px
     }
+
+    .info-skills_container-img{
+        width: 200px;
+        float: right !important;
+        margin-right: -100px;
+        margin-top: -80px;
+
+        .info-skills_img{
+        width: 100%;
+        
+        }
+    }
+    
 }

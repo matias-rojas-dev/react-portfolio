@@ -1,6 +1,5 @@
 import './assets/styles/_settings.scss'
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
-import AboutMe from './components/AboutMe'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Nav from './components/Nav';

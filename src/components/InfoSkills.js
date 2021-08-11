@@ -1,6 +1,6 @@
 import React from 'react'
 import { ItemsSkills } from './ItemsSkills';
-
+import SVGReact from '../assets/img/react.svg'
 const InfoSkills = () => {
     const skills = [
         'HTML',
@@ -24,6 +24,9 @@ const InfoSkills = () => {
                         <ItemsSkills skill={item} />
                     ))
                 }
+                <div className="info-skills_container-img">
+                    <img className="info-skills_img" src={SVGReact} alt="Img React SVG" />
+                </div>
             </div>
         </div>
     )
