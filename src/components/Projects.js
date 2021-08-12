@@ -6,8 +6,6 @@ const Projects = () => {
 
     const projectData = PROJECTS_DATA;
 
-
-
     return (
         <div className="projects_container">
             <div className="projects_info">

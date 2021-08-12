@@ -15,14 +15,18 @@
         width: 100%;
         height: 150px;
         background: red;
+
         img{
             width: 100%;
             object-fit: cover;
             height: 100%;
+
         }
     }
 
 }
+
+
 
 .projects_card-container{
     display: flex;
@@ -46,8 +50,8 @@ $bright-color: #fff;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- width: 350px;
- height: 370px;
+ width: 330px;
+ height: 350px;
  position: relative;
  box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
 margin: 10px;

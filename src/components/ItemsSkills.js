@@ -1,7 +1,21 @@
 import React from 'react'
 
-export const ItemsSkills = ({ skill }) => {
+export const ItemsSkills = ({ data }) => {
+    const { name, imgUrl } = data
     return (
-        <p className="skill_red">{skill}</p>
+        <div>
+            {
+                !imgUrl ? (
+                    <p className="skill_red">{name}</p>
+                ) : (
+                    <img
+                        className="skill_img"
+                        src={imgUrl}
+                        alt={name}
+                    />
+                )
+            }
+        </div>
+
     )
 }

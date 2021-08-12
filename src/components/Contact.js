@@ -1,7 +1,9 @@
 import React from 'react'
 
 const Contact = () => (
-    <h1>Contact</h1>
+    <button className="contact_button">
+        Contacto
+    </button>
 )
 
 export default Contact;
