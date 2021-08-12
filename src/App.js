@@ -8,7 +8,7 @@ const App = () => (
   <BrowserRouter>
     <Nav />
     <Switch>
-      <Route exact path='/' component={MainScreen} />
+      <Route exact path='/main-screen' component={MainScreen} />
     </Switch>
   </BrowserRouter>
 )
