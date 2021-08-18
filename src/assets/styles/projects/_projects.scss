@@ -33,6 +33,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 50px;
+    width: 100%;
 }
 
 
@@ -74,3 +75,28 @@ margin: 10px;
 
  }
 }
+
+
+@media (max-width: 400px) {
+
+    .projects_container{
+        margin: 150px 0;
+    }
+    
+    .projects_body{
+        margin: 10px;
+    }
+
+    .project-card_container{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .projects_card-container{
+
+        margin: 0px;
+
+    }
+    
+
+  }

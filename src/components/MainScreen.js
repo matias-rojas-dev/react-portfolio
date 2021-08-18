@@ -1,8 +1,8 @@
-import React from 'react'
-import AboutMe from './AboutMe'
-import Personal from './Personal'
-import Projects from './Projects'
-
+import React from 'react';
+import AboutMe from './AboutMe';
+import Personal from './Personal';
+import Projects from './Projects';
+import Studies from './Studies';
 
 const MainScreen = () => {
     return (
@@ -10,6 +10,7 @@ const MainScreen = () => {
             <AboutMe />
             <Personal />
             <Projects />
+            <Studies />
         </>
     )
 }
