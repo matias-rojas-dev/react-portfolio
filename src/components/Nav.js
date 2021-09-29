@@ -1,12 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavContainer, NavLinks } from '../styled-components/Nav';
 
 const Nav = () => (
-    <div className='nav_container'>
-        <Link className='nav_links' to='/'>
-            CONTACTO
-        </Link>
-    </div>
+    <NavContainer>
+        <NavLinks
+            target="_blank"
+            href="https://www.linkedin.com/in/mat%C3%ADas-rojas-rojas-7049ab1b0/"
+        >
+            <img
+                src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
+            />
+        </NavLinks>
+
+
+    </NavContainer >
 )
 
 export default Nav;

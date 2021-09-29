@@ -1,13 +1,14 @@
 import React from 'react'
 import { ProjectCard } from './ProjectCard'
 import { PROJECTS_DATA } from '../utils/data'
+import { ProjectsStyle } from '../styled-components/Projects';
 
 const Projects = () => {
 
     const projectData = PROJECTS_DATA;
 
     return (
-        <div className="projects_container">
+        <ProjectsStyle>
             <div className="projects_info">
                 <h2>Proyectos en los que he participado</h2>
                 <p className="projects_body">Durante estos años he participado en proyectos tanto universitarios como personales,
@@ -25,7 +26,7 @@ const Projects = () => {
                     }
                 </div>
             </div>
-        </div>
+        </ProjectsStyle>
     )
 }
 

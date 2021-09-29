@@ -1,4 +1,3 @@
-import './assets/styles/_settings.scss'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Nav from './components/Nav';
 import MainScreen from './components/MainScreen'

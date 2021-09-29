@@ -1,12 +1,14 @@
 import React from 'react'
 import { ItemsSkills } from './ItemsSkills';
-import SVGReact from '../assets/img/react.svg'
 import { SKILLS_DATA } from '../utils/data';
+import { InfoSkillsContainer } from '../styled-components/InfoSkills';
+
+
 const InfoSkills = () => {
     const skills = SKILLS_DATA;
 
     return (
-        <div className="info-skills_container">
+        <InfoSkillsContainer>
             <div className="info-skills_info">
                 <h2>Habilidades</h2>
                 <p>
@@ -22,11 +24,8 @@ const InfoSkills = () => {
                         ))
                     }
                 </div>
-                <div className="info-skills_container-img">
-                    <img className="info-skills_img" src={SVGReact} alt="Img React SVG" />
-                </div>
             </div>
-        </div>
+        </InfoSkillsContainer>
     )
 }
 export default InfoSkills;

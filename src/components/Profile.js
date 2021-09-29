@@ -6,8 +6,8 @@ const Profile = () => (
         <h2>Desarrollador Front-end</h2>
         <p className='profile_body'>Estudiante de cuarto año de Ingeniería civil en Computación, con amplio
             conocimiento en lógica de programación además de ciertas tecnologías,
-            como <span>HTML, CSS y JS</span> además de un manejo sólido
-            en la librería <span>React JS</span> y sus elementos.
+            como <span>HTML, CSS y JS</span> agregado a un manejo sólido
+            en <span>React JS</span> y sus elementos.
         </p>
     </div>
 )

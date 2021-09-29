@@ -1,11 +1,12 @@
 import React from 'react';
+import { PersonalContainer } from '../styled-components/InfoSkills';
 import InfoSkills from './InfoSkills';
 
 const Personal = () => (
 
-    <div className='personal_container'>
+    <PersonalContainer>
         <InfoSkills />
-    </div>
+    </PersonalContainer>
 
 )
 

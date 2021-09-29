@@ -1,11 +1,12 @@
 import React from 'react'
+import { StudiesContainer } from '../styled-components/StudiesContainer';
 import { CERTIFICATIONS } from '../utils/data';
 import CertificateCard from './CertificateCard';
 
 const Studies = () => {
     const data = CERTIFICATIONS;
     return (
-        <div className="studies_container">
+        <StudiesContainer>
             <div className="studies_info">
                 <h2>Estudios y certificaciones</h2>
                 <p className="studies_text-info">
@@ -22,7 +23,7 @@ const Studies = () => {
                     ))
                 }
             </div>
-        </div>
+        </StudiesContainer>
     )
 }
 
