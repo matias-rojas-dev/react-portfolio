@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavContainer, NavLinks } from '../styled-components/Nav';
+import linkedin from '../assets/img/linkedin.png'
 
 const Nav = () => (
     <NavContainer>
@@ -8,7 +9,7 @@ const Nav = () => (
             href="https://www.linkedin.com/in/mat%C3%ADas-rojas-rojas-7049ab1b0/"
         >
             <img
-                src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
+                src={linkedin}
                 alt="Linkedin"
             />
         </NavLinks>

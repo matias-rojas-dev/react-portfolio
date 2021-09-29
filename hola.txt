@@ -1,1 +1,13 @@
-hgola
+yarn add @babel/core -D
+yarn add @babel/preset-env -D
+yarn add @babel/preset-react -D
+yarn add @svgr/webpack -D
+yarn add babel-loader -D
+yarn add core-js -D
+yarn add css-loader -D
+yarn add file-loader -D
+yarn add style-loader -D
+yarn add sass-loader -D
+yarn add webpack@5.24.2 -D
+yarn add webpack-cli@4.5.0 -D
+yarn add webpack-dev-server@3.11.2 -D
