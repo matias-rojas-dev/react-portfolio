@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { media } from "./media.util";
 
 export const NavContainer = styled.nav`
     height: 100px;
@@ -7,7 +6,6 @@ export const NavContainer = styled.nav`
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    border-bottom: 1px solid rgb(206, 204, 204);
 
     img{
         width: 30px
