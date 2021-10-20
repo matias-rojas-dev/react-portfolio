@@ -9,7 +9,7 @@ export const CardContainer = styled.div`
     height: 350px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
     margin: 10px;
-
+    overflow: hidden;
     .project-card_profile {
         
         background-color: #eef4f8;
@@ -32,7 +32,31 @@ export const CardContainer = styled.div`
         }
     }
 
+
 }
-
-
 `
+
+export const ImgSection = styled.div`
+    height: 230px;
+    background: url(${props => props.imgUrl});
+    background-size: contain
+`
+
+export const InfoSection = styled.div`
+
+    border-top: 1px solid #D3D7DC;
+    height: 120px;
+    a{
+        text-decoration: none;
+        color: black
+    }
+    h2 {
+        margin: 0
+    }
+    p {
+        height: 100%;
+        margin: 0 10px
+    }
+`
+
+

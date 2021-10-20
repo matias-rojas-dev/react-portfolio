@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { media } from "./media.util";
 
 export const NavContainer = styled.nav`
     height: 100px;

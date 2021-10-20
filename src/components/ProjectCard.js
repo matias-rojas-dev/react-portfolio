@@ -1,20 +1,25 @@
 import React from 'react'
-import { CardContainer } from '../styled-components/Card';
+import { CardContainer, ImgSection, InfoSection } from '../styled-components/Card';
 
 export const ProjectCard = ({ data }) => {
 
-    const { name, imgUrl, body } = data;
+    const { name, url, imgUrl, body } = data;
 
     return (
-        <CardContainer style={{
-            backgroundImage: `url(${imgUrl})`,
-        }}>
-            <div className="project-card_profile" >
-                <div className="project_information">
+        <CardContainer>
+            <ImgSection imgUrl={imgUrl}>
+            </ImgSection>
+            <InfoSection>
+                <a
+                    href={url}
+                    rel="noreferrer"
+                    target='_blank'
+                >
                     <h2>{name}</h2>
-                    <p>{body}</p>
-                </div>
-            </div >
+                </a>
+
+                <p>{body}</p>
+            </InfoSection>
         </CardContainer>
     )
 }

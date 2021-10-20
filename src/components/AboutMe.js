@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutMeContainer, ProfileTitle } from '../styled-components/AboutMe'
+import { AboutMeContainer } from '../styled-components/AboutMe'
 
 const AboutMe = () => (
     <AboutMeContainer>
