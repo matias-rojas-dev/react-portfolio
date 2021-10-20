@@ -4,10 +4,8 @@ module.exports = {
     mode: 'production',
     entry: './src/index.js',
     output: {
-        path: path.join(__dirname, 'public/'),
+        path: path.resolve(__dirname, 'public/'),
         filename: 'bundle.js',
-        public
-
     },
     module: {
         rules: [
@@ -52,7 +50,7 @@ module.exports = {
         maxAssetSize: 590000
     },
     //devtool: 'eval-cheap-module-source-map',
-    devtool: 'sourcemap',
+    devtool: 'source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public'),
         watchContentBase: true
