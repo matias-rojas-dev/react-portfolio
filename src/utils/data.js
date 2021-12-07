@@ -50,11 +50,11 @@ export const PROJECTS_DATA = [
     },
     {
         id: 6,
-        url: 'https://github.com/matias-rojas-dev/react-blog-website',
-        name: 'Blog con React/Node',
+        url: 'https://github.com/matias-rojas-dev/node-devJobs',
+        name: 'Buscador con Node',
         imgUrl: images['project-06'],
         //imgUrl: 'https://i.ibb.co/YbyPrPs/project-06.jpg',
-        body: 'Blog diseñado con librerías de Javascript'
+        body: 'Buscador de trabajos'
     },
     {
         id: 7,
@@ -62,7 +62,13 @@ export const PROJECTS_DATA = [
         name: 'CRUD con Node',
         imgUrl: images['project-07'],
         body: 'Web de tareas con login y uso de CRUD',
-
+    },
+    {
+        id: 8,
+        url: 'https://https://github.com/matias-rojas-dev/node-meetiApp',
+        name: 'Clon de Meeti',
+        imgUrl: images['project-08'],
+        body: 'Clon de Meeti con login y uso de CRUD',
     }
 ]
 
@@ -121,5 +127,12 @@ export const CERTIFICATIONS = [
         school: "Udemy",
         img: images.udemy,
         url: 'https://www.udemy.com/certificate/UC-cdca200d-45b7-412f-ab19-40f9202e9a81/'
+    },
+    {
+        id: 4,
+        name: "Cursando Ing. civil en Computación",
+        school: "UTEM",
+        img: images.utem,
+        url: 'https://fing.utem.cl/carreras-ingreso-psu/ingenieria-civil-en-computacion-mencion-informatica/'
     },
 ]

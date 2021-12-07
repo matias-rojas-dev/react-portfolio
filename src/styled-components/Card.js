@@ -39,7 +39,8 @@ export const CardContainer = styled.div`
 export const ImgSection = styled.div`
     height: 230px;
     background: url(${props => props.imgUrl});
-    background-size: contain
+    background-size: cover;
+    background-repeat: no-repeat;
 `
 
 export const InfoSection = styled.div`
