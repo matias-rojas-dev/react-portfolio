@@ -6,6 +6,7 @@ import project05 from '../assets/img/project-05.png'
 import project06 from '../assets/img/project-06.JPG'
 import project07 from '../assets/img/project-07.png'
 import project08 from '../assets/img/project-08.JPG'
+import project09 from '../assets/img/project-09.JPG'
 
 import udemy from '../assets/img/udemy.png'
 import escalab from '../assets/img/escalab.png'
@@ -21,6 +22,7 @@ const images = {
     "project-06": project06,
     "project-07": project07,
     "project-08": project08,
+    "project-09": project09,
     "udemy": udemy,
     "escalab": escalab,
     "linkedin": linkedin,

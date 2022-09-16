@@ -17,6 +17,8 @@ export const ProjectsStyle = styled.div`
     .projects_body{
         font-size: 20px;
         font-weight: lighter;
+        line-height: 33px;
+        margin-bottom: 10px;
     }
 
     .projects_card-container{

@@ -69,6 +69,13 @@ export const PROJECTS_DATA = [
         name: 'Clon de Meeti',
         imgUrl: images['project-08'],
         body: 'Clon de Meeti con login y uso de CRUD',
+    },
+    {
+        id: 9,
+        url: 'https://github.com/matias-rojas-dev/notes-app-project',
+        name: 'Aplicación de notas',
+        imgUrl: images['project-09'],
+        body: 'Aplicación usando MERN',
     }
 ]
 
@@ -135,4 +142,11 @@ export const CERTIFICATIONS = [
         img: images.utem,
         url: 'https://fing.utem.cl/carreras-ingreso-psu/ingenieria-civil-en-computacion-mencion-informatica/'
     },
+    {
+        id: 5,
+        name: "Node JS Developer",
+        school: "Escalab Academy",
+        img: images.escalab,
+        url: "https://drive.google.com/file/d/1D3TKEFRViqBhKCF8C_GoYx8Qn9teBLO-/view"
+    }
 ]

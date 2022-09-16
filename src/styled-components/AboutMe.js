@@ -14,5 +14,6 @@ export const AboutMeContainer = styled.div`
     p{
         font-size: 20px;
         font-weight: lighter;
+        line-height: 33px
     }
 `

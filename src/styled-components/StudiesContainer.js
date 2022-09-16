@@ -52,7 +52,7 @@ export const CertificateContainer = styled.a`
     }
 
     img{
-        width: 80px;
+        width: 86px;
         height: 80px;
         padding-left: 6px;
     }

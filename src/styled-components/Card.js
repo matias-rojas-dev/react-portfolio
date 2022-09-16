@@ -56,7 +56,7 @@ export const InfoSection = styled.div`
     }
     p {
         height: 100%;
-        margin: 0 10px
+        margin: 0 10px;
     }
 `
 
