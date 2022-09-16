@@ -2,7 +2,7 @@
 
   # Personal portfolio
 
-<strong>https://personal-portfolio-mr.herokuapp.com/home</strong>
+<strong>https://react-portfolio-app-wine.vercel.app/home</strong>
 
 
 </div>
