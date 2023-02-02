@@ -5,6 +5,9 @@ import SVGJS from '../assets/img/javascript.svg'
 import SVGREACT from '../assets/img/react (1).svg'
 import SVGSASS from '../assets/img/sass.svg'
 import NODE from '../assets/img/nodejs.png'
+import JAVA from '../assets/img/java.png'
+import CPLUSPLUS from '../assets/img/c++.png'
+import SQL from '../assets/img/sql.png'
 
 
 export const PROJECTS_DATA = [
@@ -108,6 +111,21 @@ export const SKILLS_DATA = [
         id: 6,
         name: "NODE",
         imgUrl: NODE
+    },
+    {
+        id: 7,
+        name: "JAVA",
+        imgUrl: JAVA
+    },
+    {
+        id: 8,
+        name: "SQL",
+        imgUrl: SQL
+    },
+    {
+        id: 9,
+        name: "C++",
+        imgUrl: CPLUSPLUS
     }
 
 ]
